@@ -14,13 +14,26 @@
 		CE70312E18BF2C0500F06F67 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CE70312D18BF2C0500F06F67 /* main.m */; };
 		CE70313218BF2C0500F06F67 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CE70313118BF2C0500F06F67 /* AppDelegate.m */; };
 		CE70313518BF2C0500F06F67 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CE70313318BF2C0500F06F67 /* Main.storyboard */; };
-		CE70313818BF2C0500F06F67 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CE70313718BF2C0500F06F67 /* ViewController.m */; };
+		CE70313818BF2C0500F06F67 /* GameViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CE70313718BF2C0500F06F67 /* GameViewController.m */; };
 		CE70313A18BF2C0500F06F67 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CE70313918BF2C0500F06F67 /* Images.xcassets */; };
 		CE70314118BF2C0500F06F67 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CE70314018BF2C0500F06F67 /* XCTest.framework */; };
 		CE70314218BF2C0500F06F67 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CE70312118BF2C0500F06F67 /* Foundation.framework */; };
 		CE70314318BF2C0500F06F67 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CE70312518BF2C0500F06F67 /* UIKit.framework */; };
 		CE70314B18BF2C0500F06F67 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = CE70314918BF2C0500F06F67 /* InfoPlist.strings */; };
 		CE70314D18BF2C0500F06F67 /* ItotooshiTests.m in Sources */ = {isa = PBXBuildFile; fileRef = CE70314C18BF2C0500F06F67 /* ItotooshiTests.m */; };
+		CE70315818BF2D3000F06F67 /* HighScoreViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CE70315718BF2D3000F06F67 /* HighScoreViewController.m */; };
+		CE70315D18BF2D4500F06F67 /* ResultViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CE70315A18BF2D4500F06F67 /* ResultViewController.m */; };
+		CE70315E18BF2D4500F06F67 /* TitleViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CE70315C18BF2D4500F06F67 /* TitleViewController.m */; };
+		CE70316218C0292400F06F67 /* whitedot.png in Resources */ = {isa = PBXBuildFile; fileRef = CE70316118C0292400F06F67 /* whitedot.png */; };
+		CE70316D18C1A6C600F06F67 /* hari3w3h.png in Resources */ = {isa = PBXBuildFile; fileRef = CE70316518C1A6C600F06F67 /* hari3w3h.png */; };
+		CE70316E18C1A6C600F06F67 /* hari3w4h.png in Resources */ = {isa = PBXBuildFile; fileRef = CE70316618C1A6C600F06F67 /* hari3w4h.png */; };
+		CE70316F18C1A6C600F06F67 /* hari3w5h.png in Resources */ = {isa = PBXBuildFile; fileRef = CE70316718C1A6C600F06F67 /* hari3w5h.png */; };
+		CE70317018C1A6C600F06F67 /* hari3w6h.png in Resources */ = {isa = PBXBuildFile; fileRef = CE70316818C1A6C600F06F67 /* hari3w6h.png */; };
+		CE70317118C1A6C600F06F67 /* hari3w7h.png in Resources */ = {isa = PBXBuildFile; fileRef = CE70316918C1A6C600F06F67 /* hari3w7h.png */; };
+		CE70317218C1A6C600F06F67 /* hari3w8h.png in Resources */ = {isa = PBXBuildFile; fileRef = CE70316A18C1A6C600F06F67 /* hari3w8h.png */; };
+		CE70317318C1A6C600F06F67 /* hari3w9h.png in Resources */ = {isa = PBXBuildFile; fileRef = CE70316B18C1A6C600F06F67 /* hari3w9h.png */; };
+		CE70317418C1A6C600F06F67 /* hari3w10h.png in Resources */ = {isa = PBXBuildFile; fileRef = CE70316C18C1A6C600F06F67 /* hari3w10h.png */; };
+		CEF2020A19048F8200D55BB9 /* title120.png in Resources */ = {isa = PBXBuildFile; fileRef = CEF2020919048F8200D55BB9 /* title120.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,14 +58,30 @@
 		CE70313018BF2C0500F06F67 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		CE70313118BF2C0500F06F67 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		CE70313418BF2C0500F06F67 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		CE70313618BF2C0500F06F67 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		CE70313718BF2C0500F06F67 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		CE70313618BF2C0500F06F67 /* GameViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GameViewController.h; sourceTree = "<group>"; };
+		CE70313718BF2C0500F06F67 /* GameViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GameViewController.m; sourceTree = "<group>"; };
 		CE70313918BF2C0500F06F67 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		CE70313F18BF2C0500F06F67 /* ItotooshiTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ItotooshiTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		CE70314018BF2C0500F06F67 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		CE70314818BF2C0500F06F67 /* ItotooshiTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ItotooshiTests-Info.plist"; sourceTree = "<group>"; };
 		CE70314A18BF2C0500F06F67 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		CE70314C18BF2C0500F06F67 /* ItotooshiTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ItotooshiTests.m; sourceTree = "<group>"; };
+		CE70315618BF2D3000F06F67 /* HighScoreViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HighScoreViewController.h; sourceTree = "<group>"; };
+		CE70315718BF2D3000F06F67 /* HighScoreViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HighScoreViewController.m; sourceTree = "<group>"; };
+		CE70315918BF2D4500F06F67 /* ResultViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ResultViewController.h; sourceTree = "<group>"; };
+		CE70315A18BF2D4500F06F67 /* ResultViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ResultViewController.m; sourceTree = "<group>"; };
+		CE70315B18BF2D4500F06F67 /* TitleViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TitleViewController.h; sourceTree = "<group>"; };
+		CE70315C18BF2D4500F06F67 /* TitleViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TitleViewController.m; sourceTree = "<group>"; };
+		CE70316118C0292400F06F67 /* whitedot.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = whitedot.png; path = Itotooshi/whitedot.png; sourceTree = "<group>"; };
+		CE70316518C1A6C600F06F67 /* hari3w3h.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = hari3w3h.png; path = Itotooshi/hari3w3h.png; sourceTree = "<group>"; };
+		CE70316618C1A6C600F06F67 /* hari3w4h.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = hari3w4h.png; path = Itotooshi/hari3w4h.png; sourceTree = "<group>"; };
+		CE70316718C1A6C600F06F67 /* hari3w5h.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = hari3w5h.png; path = Itotooshi/hari3w5h.png; sourceTree = "<group>"; };
+		CE70316818C1A6C600F06F67 /* hari3w6h.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = hari3w6h.png; path = Itotooshi/hari3w6h.png; sourceTree = "<group>"; };
+		CE70316918C1A6C600F06F67 /* hari3w7h.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = hari3w7h.png; path = Itotooshi/hari3w7h.png; sourceTree = "<group>"; };
+		CE70316A18C1A6C600F06F67 /* hari3w8h.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = hari3w8h.png; path = Itotooshi/hari3w8h.png; sourceTree = "<group>"; };
+		CE70316B18C1A6C600F06F67 /* hari3w9h.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = hari3w9h.png; path = Itotooshi/hari3w9h.png; sourceTree = "<group>"; };
+		CE70316C18C1A6C600F06F67 /* hari3w10h.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = hari3w10h.png; path = Itotooshi/hari3w10h.png; sourceTree = "<group>"; };
+		CEF2020919048F8200D55BB9 /* title120.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = title120.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -82,6 +111,8 @@
 		CE70311518BF2C0500F06F67 = {
 			isa = PBXGroup;
 			children = (
+				CEF2020919048F8200D55BB9 /* title120.png */,
+				CE70317518C1A6D300F06F67 /* PNG */,
 				CE70312718BF2C0500F06F67 /* Itotooshi */,
 				CE70314618BF2C0500F06F67 /* ItotooshiTests */,
 				CE70312018BF2C0500F06F67 /* Frameworks */,
@@ -115,8 +146,14 @@
 				CE70313018BF2C0500F06F67 /* AppDelegate.h */,
 				CE70313118BF2C0500F06F67 /* AppDelegate.m */,
 				CE70313318BF2C0500F06F67 /* Main.storyboard */,
-				CE70313618BF2C0500F06F67 /* ViewController.h */,
-				CE70313718BF2C0500F06F67 /* ViewController.m */,
+				CE70315918BF2D4500F06F67 /* ResultViewController.h */,
+				CE70315A18BF2D4500F06F67 /* ResultViewController.m */,
+				CE70315B18BF2D4500F06F67 /* TitleViewController.h */,
+				CE70315C18BF2D4500F06F67 /* TitleViewController.m */,
+				CE70315618BF2D3000F06F67 /* HighScoreViewController.h */,
+				CE70315718BF2D3000F06F67 /* HighScoreViewController.m */,
+				CE70313618BF2C0500F06F67 /* GameViewController.h */,
+				CE70313718BF2C0500F06F67 /* GameViewController.m */,
 				CE70313918BF2C0500F06F67 /* Images.xcassets */,
 				CE70312818BF2C0500F06F67 /* Supporting Files */,
 			);
@@ -150,6 +187,22 @@
 				CE70314918BF2C0500F06F67 /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		CE70317518C1A6D300F06F67 /* PNG */ = {
+			isa = PBXGroup;
+			children = (
+				CE70316118C0292400F06F67 /* whitedot.png */,
+				CE70316518C1A6C600F06F67 /* hari3w3h.png */,
+				CE70316618C1A6C600F06F67 /* hari3w4h.png */,
+				CE70316718C1A6C600F06F67 /* hari3w5h.png */,
+				CE70316818C1A6C600F06F67 /* hari3w6h.png */,
+				CE70316918C1A6C600F06F67 /* hari3w7h.png */,
+				CE70316A18C1A6C600F06F67 /* hari3w8h.png */,
+				CE70316B18C1A6C600F06F67 /* hari3w9h.png */,
+				CE70316C18C1A6C600F06F67 /* hari3w10h.png */,
+			);
+			name = PNG;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -196,7 +249,7 @@
 		CE70311618BF2C0500F06F67 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 0500;
+				LastUpgradeCheck = 0510;
 				ORGANIZATIONNAME = USER;
 				TargetAttributes = {
 					CE70313E18BF2C0500F06F67 = {
@@ -229,8 +282,18 @@
 			buildActionMask = 2147483647;
 			files = (
 				CE70313A18BF2C0500F06F67 /* Images.xcassets in Resources */,
+				CE70317218C1A6C600F06F67 /* hari3w8h.png in Resources */,
+				CE70316D18C1A6C600F06F67 /* hari3w3h.png in Resources */,
+				CE70317318C1A6C600F06F67 /* hari3w9h.png in Resources */,
 				CE70312C18BF2C0500F06F67 /* InfoPlist.strings in Resources */,
+				CE70317018C1A6C600F06F67 /* hari3w6h.png in Resources */,
 				CE70313518BF2C0500F06F67 /* Main.storyboard in Resources */,
+				CE70316218C0292400F06F67 /* whitedot.png in Resources */,
+				CEF2020A19048F8200D55BB9 /* title120.png in Resources */,
+				CE70316F18C1A6C600F06F67 /* hari3w5h.png in Resources */,
+				CE70316E18C1A6C600F06F67 /* hari3w4h.png in Resources */,
+				CE70317118C1A6C600F06F67 /* hari3w7h.png in Resources */,
+				CE70317418C1A6C600F06F67 /* hari3w10h.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -249,9 +312,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CE70313818BF2C0500F06F67 /* ViewController.m in Sources */,
+				CE70313818BF2C0500F06F67 /* GameViewController.m in Sources */,
+				CE70315E18BF2D4500F06F67 /* TitleViewController.m in Sources */,
 				CE70313218BF2C0500F06F67 /* AppDelegate.m in Sources */,
 				CE70312E18BF2C0500F06F67 /* main.m in Sources */,
+				CE70315D18BF2D4500F06F67 /* ResultViewController.m in Sources */,
+				CE70315818BF2D3000F06F67 /* HighScoreViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -305,7 +371,6 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
-				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
@@ -344,7 +409,6 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
-				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
@@ -402,7 +466,6 @@
 		CE70315418BF2C0500F06F67 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
 				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Itotooshi.app/Itotooshi";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SDKROOT)/Developer/Library/Frameworks",
@@ -425,7 +488,6 @@
 		CE70315518BF2C0500F06F67 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
 				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Itotooshi.app/Itotooshi";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SDKROOT)/Developer/Library/Frameworks",
@@ -460,6 +522,7 @@
 				CE70315218BF2C0500F06F67 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		CE70315318BF2C0500F06F67 /* Build configuration list for PBXNativeTarget "ItotooshiTests" */ = {
 			isa = XCConfigurationList;
@@ -468,6 +531,7 @@
 				CE70315518BF2C0500F06F67 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
